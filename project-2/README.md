@@ -1,6 +1,6 @@
 # Project 2 - RSA Encryption
 # Description 
-You are to write a program for managing RSA encryption, decryption, and key generation. Your program should be menu or command-line driven, and support the following functionality.
+You are to write a program for managing RSA encryption, decryption, and key generation. Your program should be menu or command-line driven, and support the following functionality:
 1. Create a private key, and save it to a file.
 2. Create a public key from a private key, and save it to a file.
 3. Load a key (public or private) from a file specified by the user.
@@ -21,6 +21,3 @@ If you are programming in Java, use the java.math.BigInteger class - see http://
 If you are programming in C++ or C, you can use the powerful GMP package (https://gmplib.org/manual/Integer-Functions.html#Integer-Functions). GMP is free to download and install, which you can do on your laptop if you don't want to use thomas.\
 
 All of these packages support conversion to/from text strings in base 36, addition, subtraction, multiplication, division, modular exponentiation, and GCDs. The BigInteger package has modular inverses (for computing d) and prime testing, as does GMP.
-
-# Hand In 
-Turn in a listing of your source code, and some sample plaintext, ciphertext, and key text files. Be sure to include comments!
